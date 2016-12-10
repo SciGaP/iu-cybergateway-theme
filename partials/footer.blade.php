@@ -1,66 +1,62 @@
-<br/>
-<br/>
-<br/>
-<style>
-@media (min-width: 768px) { 
-.logo-seperation{
-	margin-left:100px;
-}
-}
-</style>
-<hr class="separation-line"/>
-<div class="col-md-12 text-center" style=" padding: 20px 0 20px 0;">
-	<a href="http://airavata.apache.org/" target="_blank">
-		<img width="200px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/poweredby-airavata-logo.png">
-	</a>
-	<a href="http://www.nsf.gov/" target="_blank" class="logo-seperation">
-		<img width="200px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/nsf-logo.png">
-	</a>
-	<a href="https://www.xsede.org/" target="_blank" class="logo-seperation">
-		<img width="160px" src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/powered-by-xsede.gif">
-	</a>
-</div>
-<div class="col-md-12 text-center" style="background:rgba(125,165,175,0.4); padding: 20px 0 20px 0;">
+<footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+    <div class="row pad">
 
-	<a href="http://www.uthscsa.edu/" target="_blank">
-		<img width="200px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/uthscsa-logo.png">
-	</a>
-	<a href="http://www.iu.edu/" target="_blank" class="logo-seperation">
-        <img width="200px" src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/iu-logo.png"/>
-	</a>
-	<a href="http://www.sdsc.edu/" target="_blank" class="logo-seperation">
-		<img width="160px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/sdsc-logo.png">
-	</a>
-</div>
+        <p class="tagline">Fulfilling <span>the</span> Promise</p>
+
+        <p class="signature">
+            <a href="https://www.iu.edu" class="signature-link">Indiana University</a>
+        </p>
+
+        <p class="copyright">
+        <a href="https://www.iu.edu/copyright/index.html">Copyright</a> &#169; 2016 <span class="line-break-small">The Trustees of <a href="https://www.iu.edu/" itemprop="url"><span itemprop="name">Indiana University</span></a></span><span class="hide-on-mobile"> | </span><span class="line-break"><a href="/privacy" id="privacy-policy-link">Privacy Notice</a> | <a href="https://accessibility.iu.edu" id="accessibility-link" title="Having trouble accessing this web page because of a disability? Visit this page for assistance.">Accessibility</a></span>
+        </p>
+    </div>
+</footer>
 
 
-<!-- 
+<script src="//assets.iu.edu/web/3.x/js/iu-framework.min.js"></script>
 
-<div class="col-md-12">
-<h3 class="text-center">Seagrid has evolved from previous invaluable collaborations.</h3>
-</div>
-<div class="blue-bg col-md-12 old-collaborators">
-	<div class="col-md-2">
-		<img src="https://gridchem.org/images/CCSlogo.gif">
-	</div>
-	<div class="col-md-2">
-		<img src="https://gridchem.org/images/cctlogo_small.jpg">
-	</div>
-	<div class="col-md-2">
-		<img src="https://gridchem.org/images/ncsalogo.gif">
-	</div>
-	<div class="col-md-2">
-		<img src="https://gridchem.org/images/tacclogo_small.png">
-	</div>
-	<div class="col-md-2">
-		<img src="https://gridchem.org/images/osclogo_small.gif">
-	</div>
-</div>
+<script src="https://assets.iu.edu/search/3.x/search.js"></script>
+<script>
+/*!
+ * Initialize IU JS
+ */
+(function($, window, document, undefined) {
 
--->
+    $(document).ready(function() {
 
-<script type="text/javascript">
-	if( bw > 767){
-        $(".hero-unit").height( bw*0.50);
-    }
+        Foundation.OffCanvas.defaults.transitionTime = 500;
+        Foundation.OffCanvas.defaults.forceTop = false;
+        Foundation.OffCanvas.defaults.positiong = 'right';
+
+        Foundation.Accordion.defaults.multiExpand = true;
+        Foundation.Accordion.defaults.allowAllClosed = true;
+
+        // Initialize Foundation
+        $(document).foundation();
+
+        var IU = window.IU || {};
+
+        // Delete modules if necessary
+        // delete IU.uiModules['accordion'];
+
+        IU.init && IU.init();
+
+                
+        var IUSearch = window.IUSearch || {};
+
+        var searchOptions = {
+            CX: {
+                site: ' 016278320858612601979:w_w23ggyftu', // Replace this with a site CX value
+                all: '  016278320858612601979:ddl1l9og1w8' // Replace this with campus CX value
+            },
+            wrapClass: 'row pad',
+            searchBoxIDs: ['search', 'off-canvas-search']
+        }
+
+        /* Initialize global search */
+        IUSearch.init && IUSearch.init( searchOptions );
+    });
+})(jQuery, window, window.document);
+
 </script>
