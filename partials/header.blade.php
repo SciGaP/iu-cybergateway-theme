@@ -2,7 +2,7 @@
 <link media="all" type="text/css" rel="stylesheet" href="https://assets.iu.edu/brand/3.x/brand.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://assets.iu.edu/search/3.x/search.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://assets.iu.edu/web/3.x/css/iu-framework.min.css">
-    <script src="http://assets.iu.edu/web/1.5/libs/modernizr.min.js"></script>
+    <script src="https://assets.iu.edu/web/1.5/libs/modernizr.min.js"></script>
 <style>
 .content-area{
     max-width: 100%;
