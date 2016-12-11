@@ -1,2 +1,2 @@
 # IU-Cybergateway-portal-theme
-PGA theme for Cybergateway Website and Portal
+PGA theme for Indiana University Cybergateway - https://cybergateway.iu.edu/
