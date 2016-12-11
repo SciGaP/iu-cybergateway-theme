@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-sm-offset-1 col-sm-10 col-xs-12">
           <p class="description">
-          Scigap Team consits of members from the Science Gateway Research Center ( SGRC). You can find information about members at <a href="http://sgrc.iu.edu/#team" target="_blank">http://sgrc.iu.edu/#team</a>.
+          Scigap Team consists of members from the Science Gateway Research Center ( SGRC). You can find information about members at <a href="http://sgrc.iu.edu/#team" target="_blank">http://sgrc.iu.edu/#team</a>.
           </p>
         </div>
       </div>
