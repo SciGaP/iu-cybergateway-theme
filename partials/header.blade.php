@@ -15,7 +15,7 @@
 }
 </style>
 
-<div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+<div id="branding-bar" itemscope="itemscope" itemtype="https://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
     <div class="row pad">
             <img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="IU" />
             <p id="iu-campus">
