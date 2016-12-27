@@ -1,0 +1,1 @@
+<h1>News and events list</h1>
