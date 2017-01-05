@@ -1,4 +1,6 @@
-    
+
+<div>
+    <div>
     <div class="section bg-gray dark belt" id="contact">
       <div class="row pad">
         <div class="grid">
