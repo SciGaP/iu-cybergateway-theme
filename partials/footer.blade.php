@@ -102,6 +102,14 @@
 
         });
 
+    $(".brand-logo")
+      .text("IU Cybergateway")
+      .css("color","#fff")
+      .css("margin-top", "10px")
+      .css("margin-right", "10px")
+      .css("text-decoration", "none")
+      .css("display", "inline");
+
 })(jQuery, window, window.document);
 
 </script>

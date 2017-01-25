@@ -43,7 +43,9 @@
     <header class="site-header" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="banner">
 
         <div class="row pad">
+          @if(! Session::get("loggedin"))
             <h1><a class="title" href="{{URL::to('/')}}" itemprop="department">IU Cybergateway</a></h1>
+          @endif
         </div>
     </header>
        
@@ -66,6 +68,7 @@
       </nav>
     </div>
 
+    @if(! Session::get("loggedin"))
     <div class="nav-secondary show-for-small">
       <div class="row pad">
         <ul class="inline separators" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
@@ -75,4 +78,5 @@
         </ul>
       </div>
     </div>
+    @endif
     
