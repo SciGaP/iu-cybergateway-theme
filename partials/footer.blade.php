@@ -1,4 +1,6 @@
-    
+
+<div>
+    <div>
     <div class="section bg-gray dark belt" id="contact">
       <div class="row pad">
         <div class="grid">
@@ -7,7 +9,7 @@
                   <div class="belt-title" style="margin-bottom: .5em;">
                     <h2>Contact Us</h2>
                   </div>
-                  <p style="padding-right:10%;">The IU Cyberinfrastructure Gateway is developed and supported by the Science Gateways Research Center - SGRC</p>
+                  <p style="padding-right:10%;">The IU Cyberinfrastructure Gateway is operated by Research Technologies division of UITS. Cybergaterway is based on Apache Airavata developed and supported by the Science Gateways Research Center - SGRC</p>
                   <h4>Center Website:</h4>
                   <p><a href="https://sgrc.iu.edu/" target="_blank">https://sgrc.iu.edu/</a></p>
                   <h4>Email:</h4>
