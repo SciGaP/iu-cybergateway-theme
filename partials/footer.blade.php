@@ -1,6 +1,6 @@
 
 <div>
-    <div>
+    <div>    
     <div class="section bg-gray dark belt" id="contact">
       <div class="row pad">
         <div class="grid">
@@ -57,6 +57,9 @@
     </div>
 </footer>
 
+<!--
+
+IU Branding scripts. Not required.
 
 <script src="//assets.iu.edu/web/3.x/js/iu-framework.min.js"></script>
 <script src="//assets.iu.edu/web/3.x/js/slick.min.js"></script>
@@ -66,6 +69,7 @@
 /*!
  * Initialize IU JS
  */
+
 (function($, window, document, undefined) {
 
     $(document).ready(function() {
@@ -115,3 +119,5 @@
 })(jQuery, window, window.document);
 
 </script>
+
+-->

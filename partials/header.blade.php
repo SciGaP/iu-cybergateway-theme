@@ -7,12 +7,18 @@
 .content-area{
     max-width: 100%;
 }
+
+.theme-header{
+  background: #fff;
+}
+/*
 #search{
     position: fixed;
 }
 #toggles{
     position: fixed;
 }
+*/
 </style>
 
 <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
@@ -74,7 +80,7 @@
         <ul class="inline separators" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
           <li class="first"><a href="{{URL::to('/')}}/login" itemprop="url"><span itemprop="name">Login</span></a></li>
           <li><a href="{{URL::to('/')}}/create" itemprop="url"><span itemprop="name">Register</span></a></li>
-          <li class="last"><a href="#contact" itemprop="url"><span itemprop="name">Contact</span></a></li>
+          <li class="last"><a href="{{URL::to('/')}}/#contact" itemprop="url"><span itemprop="name">Contact</span></a></li>
         </ul>
       </div>
     </div>
