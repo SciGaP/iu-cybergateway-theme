@@ -10,6 +10,18 @@
                     <h2>Contact Us</h2>
                   </div>
                   <p style="padding-right:10%;">The IU Cyberinfrastructure Gateway is operated by Research Technologies division of UITS. Cybergaterway is based on Apache Airavata developed and supported by the Science Gateways Research Center - SGRC</p>
+
+                <h2>UITS Assistance</h2>
+                <p><a class="" href="https://rt.uits.iu.edu/ask_rt.php" target="_blank">Ask RT for Assistance</a><br/><a class="" href="https://kb.iu.edu/d/apgt" target="_blank">UITS Support Center</a>
+                </p>
+                </div>
+            </div>
+            <div class="one-half">
+                <!--
+                <h2>Chat with a Consultant</h2>
+                <p><a class="" href="http://ithelplive.iu.edu/" target="_blank">ITHelpLive</a> ( IU Login Required)
+                -->
+
                   <h4>Center Website:</h4>
                   <p><a href="https://sgrc.iu.edu/" target="_blank">https://sgrc.iu.edu/</a></p>
                   <h4>Email:</h4>
@@ -27,14 +39,6 @@
                   <p style="margin-top: 1em;">IU Cyberinfrastructure Building (CIB)<br>
                   2709 E. 10th St.<br>
                   Bloomington, IN 47408</p>
-                </div>
-            </div>
-            <div class="one-half">
-                <h2>Chat with a Consultant</h2>
-                <p><a class="" href="http://ithelplive.iu.edu/" target="_blank">ITHelpLive</a> ( IU Login Required)
-                <h2>UITS Assistance</h2>
-                <p><a class="" href="https://rt.uits.iu.edu/ask_rt.php" target="_blank">Ask RT for Assistance</a><br/><a class="" href="https://kb.iu.edu/d/apgt" target="_blank">UITS Support Center</a>
-                </p>
             </div>
         </div>
       </div>
@@ -64,6 +68,8 @@ IU Branding scripts. Not required.
 <script src="//assets.iu.edu/web/3.x/js/iu-framework.min.js"></script>
 <script src="//assets.iu.edu/web/3.x/js/slick.min.js"></script>
 
+-->
+
 <script src="https://assets.iu.edu/search/3.x/search.js"></script>
 <script>
 /*!
@@ -73,7 +79,7 @@ IU Branding scripts. Not required.
 (function($, window, document, undefined) {
 
     $(document).ready(function() {
-
+        /*
         Foundation.OffCanvas.defaults.transitionTime = 500;
         Foundation.OffCanvas.defaults.forceTop = false;
         Foundation.OffCanvas.defaults.positiong = 'right';
@@ -91,6 +97,8 @@ IU Branding scripts. Not required.
 
         IU.init && IU.init();
 
+                */
+        $(".search-toggle").attr("href", " {{ URL::to('/') }}/pages/search");
                 
         var IUSearch = window.IUSearch || {};
 
@@ -108,6 +116,7 @@ IU Branding scripts. Not required.
 
         });
 
+
     $(".brand-logo")
       .text("IU Cybergateway")
       .css("color","#fff")
@@ -119,5 +128,3 @@ IU Branding scripts. Not required.
 })(jQuery, window, window.document);
 
 </script>
-
--->

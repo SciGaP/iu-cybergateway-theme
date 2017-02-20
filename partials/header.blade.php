@@ -11,14 +11,14 @@
 .theme-header{
   background: #fff;
 }
-/*
+
 #search{
     position: fixed;
 }
 #toggles{
     position: fixed;
 }
-*/
+
 </style>
 
 <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
@@ -55,6 +55,7 @@
         </div>
     </header>
        
+    <!--
     <div id="nav-main-sticky-wrapper" class="sticky-nav">
       <nav role="navigation" aria-label="Main navigation" id="nav-main" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" class="main show-for-large dropdown">
         <ul class="row pad">
@@ -73,6 +74,7 @@
         </ul>
       </nav>
     </div>
+    -->
 
     @if(! Session::get("loggedin"))
     <div class="nav-secondary show-for-small">
