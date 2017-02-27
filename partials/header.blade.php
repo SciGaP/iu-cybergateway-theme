@@ -16,8 +16,13 @@
     position: fixed;
 }
 #toggles{
-    position: fixed;
+    position: absolute;
 }
+
+ .search-open .search-toggle {
+  top: -56px !important;
+}
+ 
 
 </style>
 
