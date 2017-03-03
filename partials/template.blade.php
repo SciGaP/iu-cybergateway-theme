@@ -8,6 +8,8 @@
     <main class="wide" role="main">
                                 
       <div class="bg-none ticker-section section">
+
+        <!--
         <div class="row">
           <div class="layout">
             <h2>Latest News and events</h2>
@@ -27,8 +29,9 @@
               <div class="one-third float-right text-right">
                 <a href="{{URL::to('/')}}/pages/news">Read More</a>
               </div>
-          </div><!-- /.layout -->
+          </div>
         </div>
+        -->
 
         <div class="bg-crimson bg-image bg-dark section" id="">
 
@@ -39,25 +42,28 @@
               <div class="text"><h2>Portal to IU computing resources</h2>
                 <div class="row">
                   <ul>
-                    <li>Get updates on Big Red II, Karst, and Mason status.</li>
-                    <li>Move files from your desktop to IU's Scholarly Data Archive and Data Capacitor.</li>
-                    <li>Monitor and manage running jobs on Big Red II, Karst, and Mason.</li>
-                    <li>Find information on available software.</li>
+                    <li>Easy job submissions to IU computing resources, BigRed2, Karst and Mason.</li>
+                    <li>Monitor and manage running jobs in IU computing resources.</li>
+                    <li>Share your research experimental data with fellow researchers.</li>
+                    <li>You can request your application on IU portal for job submissions.</li>
                   </ul>
+                  <!--
                   <div class="col-md-12">
                   <a class="button" href="{{URL::to('/')}}/login">Login</a>
                   <a class="button" href="{{URL::to('/')}}/create">Register</a>
                   </div>
+                  -->
                 </div>
               </div>
             </div><!-- /.layout -->
           </div>
         </div>
 
+        <!--
         <div class="bg-none section" id="">
           <div class="row"><div class="layout"><div class="callout"><div class="content"><p>
             A connected network of biomedical researchers, chemical and data scientists and students from various organizations to fulfil computation needs with access to supercomputers via ubiquitously accessible web applications.
-          </p></div></div></div><!-- /.layout --></div>
+          </p></div></div></div></div>
         </div>
 
         <div class="bg-gray section" id="">
@@ -66,15 +72,17 @@
               <div class="row">
                 <h2>System Status</h2> { DATA from API goes here.}
               </div>
-            </div><!-- /.layout -->
+            </div>
           </div>
         </div>
+        -->
 
         <div class="breakout extra-space bg-none section" id="">
 
           <div class="row">
             <div class="layout">
               <div class="text">
+                  <!--
                   <h2>IU Science Gateways</h2>
                   <ul class="sponsor-list">
                     <li><b>NCGAS Galaxy Portal:</b> 
@@ -93,11 +101,13 @@
                       The NSF XSEDE program allocates free Virtual Machine hosting for science gateways. For more information, see <a href="https://www.xsede.org/resources/overview?p_p_id=rdr_WAR_rdrportlet_INSTANCE_7Vbz&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_rdr_WAR_rdrportlet_INSTANCE_7Vbz_RESOURCE_ID=quarry.iu.teragrid.org" target="_blank">here</a>.
                     </li>
                   </ul>
+                  -->
                   <h4>Do you have a science gateway that you would like to list here, or would you like more information on creating a science gateway? Contact the Science Gateway Group at <a href="mailto:sgrc@iu.edu">sgrc@iu.edu</a></h4>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
     </main>
         
