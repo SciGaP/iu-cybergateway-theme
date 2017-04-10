@@ -1,6 +1,6 @@
 
 
-<footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+<footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/CollegeOrUniversity">
     <div class="row pad">
 
         <p class="tagline">Fulfilling <span>the</span> Promise</p>

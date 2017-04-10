@@ -1,5 +1,5 @@
 
-    <div class="section banner image loaded" id="banner" itemscope="itemscope" itemtype="http://schema.org/ImageObject" role="banner" style="background-image: none;">
+    <div class="section banner image loaded" id="banner" itemscope="itemscope" itemtype="https://schema.org/ImageObject" role="banner" style="background-image: none;">
 
       <img alt="" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/bannercyber.png"/>
 
