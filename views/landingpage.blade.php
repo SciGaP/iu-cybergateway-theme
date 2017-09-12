@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="breakout section bg-gray">
+                <div class="breakout section bg-gray" id="contact">
                     <div class="row pad">
                         <div class="grid halves">
                             <div class="grid-item">
