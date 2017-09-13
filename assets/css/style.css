@@ -1,3 +1,11 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 120px;
+}
 
 .site-header .title {
 	margin-bottom: 16px;
@@ -27,6 +35,11 @@
 	font-weight: normal;
 	border-top: 6px solid #7A1705;
 	padding: 32px 15px 24px;
+	/* Position footer at the bottom of <body> */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
 .theme-footer .signature-link {
 
